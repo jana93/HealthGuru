@@ -55,7 +55,7 @@ export default MedicineCardView;
 
 const styles = StyleSheet.create({
     cardView: {
-      elevation: 2,
+      elevation: 8,
       shadowColor: '#EDEDED',
       shadowOpacity: 1,
       shadowRadius: 8,
@@ -65,6 +65,8 @@ const styles = StyleSheet.create({
       backgroundColor: '#FFFFFF',
       borderRadius: 8,
       alignSelf: 'stretch',
+      borderWidth:0.5,
+      borderColor:'#EDEDED'
     },
     noImageBackground: {
         alignItems:'center',

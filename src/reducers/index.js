@@ -2,7 +2,9 @@ import {combineReducers} from 'redux';
 
 import {
     LOGIN_USER,
+    SIGNUP_USER,
     GET_MEDICINE_LIST,
+    GET_MEDICINE_DETAILS,
     ADD_MEDICINE,
     UPDATE_MEDICINE,
     DELETE_MEDICINE,
@@ -20,7 +22,7 @@ let initialStateMedicine = {
 
 const loginReducer = (state = initialStateLogin, action) => {
     switch (action.type) {
-        case 'SIGNUP_USER':
+        case SIGNUP_USER:
             state = Object.assign({}, state, {
                 userId: action.user.uid,
                 email:action.user.email,
@@ -37,6 +39,7 @@ export const medicineReducer = (state = initialStateMedicine, action) => {
 
         case GET_MEDICINE_LIST:
           state = Object.assign({}, state, {medicineList: action.medicineList, loading: !state.loading});
+          console.log(state);
           return state;
 
         case ADD_MEDICINE:

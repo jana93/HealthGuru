@@ -75,14 +75,14 @@ const Tab = createBottomTabNavigator();
         options={{
           title: 'Medicine',
           headerStyle: {
-            //backgroundColor: '#3eb16e',
             backgroundColor: '#FAFAFA',
             elevation: 5,
-            borderBottomWidth: 0,
+            borderBottomWidth: 0.5,
+            borderColor:'#EDEDED'
+
           },
           headerTintColor: '#3eb16e',
           headerTitleStyle: {
-            //fontWeight: 'bold',
             marginLeft: 8,
             fontSize: 20,
             fontFamily: 'Poppins-Medium',
@@ -96,10 +96,10 @@ const Tab = createBottomTabNavigator();
         options={{
           title: 'Water Hydration',
           headerStyle: {
-            //backgroundColor: '#3eb16e',
             backgroundColor: '#FAFAFA',
             elevation: 5,
-            borderBottomWidth: 0,
+            borderBottomWidth: 0.5,
+            borderColor:'#EDEDED'
           },
           headerTintColor: '#3eb16e',
           headerTitleStyle: {
@@ -117,10 +117,10 @@ const Tab = createBottomTabNavigator();
         options={{
           title: 'Health Tips',
           headerStyle: {
-            //backgroundColor: '#3eb16e',
             backgroundColor: '#FAFAFA',
             elevation: 5,
-            borderBottomWidth: 0,
+            borderBottomWidth: 0.5,
+            borderColor:'#EDEDED'
           },
           headerTintColor: '#3eb16e',
           headerTitleStyle: {
@@ -138,10 +138,10 @@ const Tab = createBottomTabNavigator();
         options={{
           title: 'Settings',
           headerStyle: {
-            //backgroundColor: '#3eb16e',
             backgroundColor: '#FAFAFA',
             elevation: 5,
-            borderBottomWidth: 0,
+            borderBottomWidth: 0.5,
+            borderColor:'#EDEDED'
           },
           headerTintColor: '#3eb16e',
           headerTitleStyle: {

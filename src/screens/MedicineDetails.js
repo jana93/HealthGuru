@@ -55,11 +55,6 @@ class MedicineDetails extends React.Component {
           <Text style={styles.textLabel}>Start Time</Text>
           <Text style={styles.textInput}>{this.state.medicineDetails ? this.state.medicineDetails.startTime : 'NA'}</Text>
 
-          {/*
-            <Text style={styles.textLabel}>Description</Text>
-            <Text style={styles.textInput2}>{this.state.description||'No description'}</Text>
-            */}
-
         </View>
       );
     }
@@ -100,21 +95,6 @@ const styles = StyleSheet.create({
         paddingTop: 10,
         paddingBottom:10,
         fontSize: 16,
-        paddingHorizontal: 16,
-        marginHorizontal: 16,
-        paddingLeft:33,
-        fontFamily: 'Poppins-Regular',
-    },
-    textInput2: {
-        alignSelf: 'stretch',
-        backgroundColor: '#FAFAFA',
-        marginTop: 10,
-        color: '#707070',
-        borderRadius: 5,
-        borderWidth: 0,
-        paddingTop: 10,
-        paddingBottom:10,
-        fontSize: 15,
         paddingHorizontal: 16,
         marginHorizontal: 16,
         paddingLeft:33,
